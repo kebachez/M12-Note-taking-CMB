@@ -1,0 +1,69 @@
+---
+title: "M12: Article Summary on Common Method Bias"
+author: "Kevin Bachez"
+date: today
+format:
+  html:
+    toc: true
+    embed-resources: true
+    theme: cosmo
+---
+
+# Article
+
+Podsakoff, P. M., MacKenzie, S. B., & Podsakoff, N. P. (2012). Sources of method bias in social science research and recommendations on how to control it. *Annual Review of Psychology, 63*, 539–569. <https://doi.org/10.1146/annurev-psych-120710-100452>
+
+# Purpose
+
+Researchers disagree about whether method bias is a real problem in behavioral research. This review sets out what is currently known about it. It covers:
+
+- what "method" and "method bias" mean;
+- whether method bias affects all measures equally;
+- the evidence on its effects;
+- the remedies for controlling it.
+
+# Key Concepts
+
+- **Method:** any part of the measurement process, such as the rater, the item wording and format, the procedure, and the context (time, place, medium).
+- **Method bias:** *systematic* error caused by the method rather than the construct being measured. It distorts estimates of reliability and validity and of the relationships between constructs.
+- **Common method variance (CMV):** method variance that two measures share because they were collected the same way, for example from the same person on the same survey.
+
+# Main Findings
+
+1. **Method bias is real but not uniform.** Method variance makes up a large share of the variance in many measures. Cote & Buckley (1987) estimated about 26% on average. The share is higher for abstract measures such as attitudes and lower for more concrete ones such as performance.
+2. **It can push results either way.** CMV can inflate correlations, but it can also deflate them. Its inflating effect can be partly offset by random measurement error. It tends to *weaken*, not create, interaction effects.
+3. **The main sources** fall into four groups:
+   - **Common rater:** social desirability, consistency motif, acquiescence, mood, affectivity.
+   - **Item characteristics:** ambiguity, shared scale formats and anchors, item wording.
+   - **Item context:** priming, item order.
+   - **Measurement context:** same time, place and medium.
+4. **Why it happens (satisficing).** Respondents who lack the *ability* or *motivation* to answer accurately, or who find the task *difficult*, take mental shortcuts. They answer consistently, agree with items, or give socially desirable answers. This is the article's main new idea.
+
+# Recommended Remedies
+
+**Procedural remedies (try these first)**
+
+- Get the predictor and the criterion from **different sources**.
+- If the same source must be used, **separate the measures**: by time, by position in the questionnaire, psychologically, or by using different scale formats.
+- Write clear, simple items. Guarantee **anonymity** to reduce social desirability.
+- Increase respondent motivation, and keep surveys short.
+
+**Statistical remedies (use when procedural ones aren't enough)**
+
+| Technique | Verdict |
+|---|---|
+| Harman's single-factor test | Not recommended. It doesn't control anything. |
+| Partial correlation (marker variable, general factor) | Not recommended. It assumes equal effects and ignores measurement error. |
+| Directly measured latent method factor | Best when the source of bias can be measured. |
+| CFA marker technique | Recommended. |
+| Unmeasured latent method factor | Use with caution. It may absorb real trait variance. |
+| Instrumental variable technique | Promising, but good instruments are hard to find. |
+
+# Conclusion
+
+Method bias should be taken seriously, but judged study by study. The best protection is careful study design. Latent-variable techniques that model the specific source of bias are the next best option. Harman's test and partial-correlation shortcuts should not be used.
+
+# Appendix
+
+- **GitHub Repo:** <https://github.com/kebachez/M12-Note-taking-CMB.git>
+- **GitHub Pages:** <https://USERNAME.github.io/REPO/>
