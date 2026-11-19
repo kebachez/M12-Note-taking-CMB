@@ -66,4 +66,4 @@ Method bias should be taken seriously, but judged study by study. The best prote
 # Appendix
 
 - **GitHub Repo:** <https://github.com/kebachez/M12-Note-taking-CMB.git>
-- **GitHub Pages:** <https://USERNAME.github.io/REPO/>
+- **GitHub Pages:** <https://kebachez.github.io/M12-Note-taking-CMB/>
